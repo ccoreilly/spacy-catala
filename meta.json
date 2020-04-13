@@ -1,11 +1,16 @@
 {
-  "accuracy": {
-    "uas":24.6151530788,
-    "las":23.711622807,
-    "ents_p":44.912142152,
-    "ents_r":21.7459467727,
-    "ents_f":29.3034819462,
-    "tags_acc":97.6588546924,
+  "speed":{
+    "nwords":56482,
+    "cpu":7136.96499771,
+    "gpu":13559.7653197239
+  },
+  "accuracy":{
+    "uas":91.2157455284,
+    "las":87.7542410298,
+    "ents_p":95.4155988219,
+    "ents_r":95.3827623126,
+    "ents_f":95.3991777417,
+    "tags_acc":98.4809319783,
     "token_acc":100.0
   },
   "author": "Ciaran O'Reilly",
@@ -17,12 +22,7 @@
   "parent_package": "spacy",
   "pipeline": ["tagger", "parser", "ner"],
   "sources": ["fastText"],
-  "spacy_version": ">=2.1.8",
-  "speed": {
-    "nwords":326934,
-    "cpu":8088.3390474066,
-    "gpu":7692.6920447333
-  },
+  "spacy_version": ">=2.2.3",
   "url": "https://nlu.cat",
   "vectors":{
     "width":300,
@@ -30,5 +30,5 @@
     "keys":2000000,
     "name":"ca_model.vectors"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
