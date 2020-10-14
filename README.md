@@ -13,8 +13,8 @@ Degut a la mida final del model (2.5GB) i dels vectors de paraules (1.1GB) aques
 Podeu instal·lar el model i fer-lo servir amb spaCy executant les següents ordres a l'interfície de línia d'ordres:
 
 ```sh
-> pip install https://github.com/ccoreilly/spacy-catala/releases/download/v0.0.2/ca_fasttext_wiki-0.0.2.tar.gz
-> python -m spacy link ca_fasttext_wiki ca
+> pip install https://github.com/ccoreilly/spacy-catala/releases/download/1.0.0/ca_fasttext_wiki_md-1.0.0-py3-none-any.whl
+> python -m spacy link ca_fasttext_wiki_md ca
 ```
 
 # [EN] spaCy NLP Model for the Catalan language
@@ -33,6 +33,6 @@ The final model is around 2.5GB and the fastText vectors over 1GB which is why t
 You can install and use the model in spaCy by executing the following commands:
 
 ```sh
-> pip install https://github.com/ccoreilly/spacy-catala/releases/download/v0.0.2/ca_fasttext_wiki-0.0.2.tar.gz
-> python -m spacy link ca_fasttext_wiki ca
+> pip install https://github.com/ccoreilly/spacy-catala/releases/download/1.0.0/ca_fasttext_wiki_md-1.0.0-py3-none-any.whl
+> python -m spacy link ca_fasttext_wiki_md ca
 ```
